@@ -2,12 +2,12 @@ function capToFront(text){
     let arr = text.split("");
     let up = "";
     let low = "";
-    for(let i of arr){
-        if(i == i.toUpperCase()){
-            up += i;
+    for(let i = 0 ; i<arr.length ;i++){
+        if(arr[i] == arr[i].toUpperCase()){
+            up += arr[i];
         }
         else{
-            low += i;
+            low += arr[i];
         }
     }
     return up+low;
