@@ -1,7 +1,5 @@
 function highestDigit(number){
-    
     let st = number.toString().split('');
-    //let max = st.split('');
     return Math.max.apply(null,st);
 }
 
