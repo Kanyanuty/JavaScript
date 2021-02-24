@@ -1,7 +1,7 @@
 function getBudgets(arrobj){
     let sum = 0;
     for(let i  = 0;i<arrobj.length;i++){
-        sum+=arrobj[i].budget
+        sum+=arrobj[i].budget  //.budget == .location
     }
     return sum;
 }
