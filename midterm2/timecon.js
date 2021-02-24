@@ -1,5 +1,5 @@
 function digitalClock(time){
-
+    
 }
 
-console.log(digitalClock(5025))
+console.log(digitalClock(5025));
