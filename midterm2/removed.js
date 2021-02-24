@@ -9,6 +9,6 @@ function removeDups(arr){
   return Object.keys(unique);
 }
 
-console.log(removeDups([1,0,1,0]));
-console.log(removeDups(["The","Big","Cat"]));
-console.log(removeDups(["John","Taylor","John"]));
+console.log(removeDups([1,0,1,0]));//==>[1,0]
+console.log(removeDups(["The","Big","Cat"]));//==>["The","Big","Cat"]
+console.log(removeDups(["John","Taylor","John"]));//==>["John","Taylor"]

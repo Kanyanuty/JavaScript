@@ -1,4 +1,7 @@
 function digitalClock(time){
+    let sec;
+    let mins;
+    let hour;
     
 }
 

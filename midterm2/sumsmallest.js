@@ -1,8 +1,10 @@
 function sumTwoSmallestNums(numbers){
-    a = Math.min.apply(Math, numbers); 
-    numbers.splice(a);
-    b = Math.min.apply(Math, numbers);
-    return (a + b) 
+    
+        a = Math.min.apply(Math, numbers); 
+        numbers.splice(a);
+        b = Math.min.apply(Math, numbers);
+        return (a + b) ;
+    
 }
 
 console.log(sumTwoSmallestNums([19,5,42,2,77]));
