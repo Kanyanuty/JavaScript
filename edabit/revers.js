@@ -1,14 +1,15 @@
-function reverseOod(str){
-    let arrstr = str.split("");
-    let count = 0 ;
-    for(let i of arrstr){
-        if( i.length % 2 == 0 ){
-            arrstr[count] = i.split("").reverse().join('');
+function reverseOdd(str) {
+    const arr = str.split(" ")
+    const results = [];
+        for(i=0; i<arr.length; i++){
+            if(arr[i].length % 2 !== 0){
+            const reversed = arr[i].split("").reverse().join("")
+            results.push(reversed)
+            } else {
+            results.push(arr[i])
+            }
         }
-        count++;
-    }
-    str = arrstr.join("");
-    return str;
+    return results.join(" ");
 }
 
 console.log(reverseOod("Make sure uoy only esrever sdrow of ddo length"));
